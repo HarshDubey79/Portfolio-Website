@@ -35,7 +35,7 @@ function Projects() {
               title="Portfolio"
               description="I’m  a passionate and skilled [ web developer/designer/digital creator] with a focus on building clean, responsive, and user-friendly digital experiences. With a strong foundation in [mention key skills or tools, e.g., HTML, CSS, JavaScript, React, Adobe XD], I specialize in turning ideas into functional and visually appealing websites and applications. My portfolio showcases a range of projects—from sleek landing pages and e-commerce sites to creative UI/UX designs—each crafted with attention to detail, performance, and user experience."
               ghLink="https://github.com/HarshDubey79"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://harshdubey00.netlify.app/"
             />
           </Col>
 

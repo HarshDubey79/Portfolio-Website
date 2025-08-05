@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Harsh Dubey </span>
             from <span className="purple"> Mirzapur.</span>
             <br />
-            I am currently employed as a software developer at .
+            I am currently Working as a software developer.
             <br />
             I have completed BCA.
             <br />
@@ -31,9 +31,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Make it work, make it right, make it fast."{" "}
           </p>
-          <footer className="blockquote-footer">NAME</footer>
+          <footer className="blockquote-footer"> Kent Beck</footer>
         </blockquote>
       </Card.Body>
     </Card>
