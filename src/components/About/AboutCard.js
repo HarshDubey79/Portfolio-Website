@@ -11,10 +11,11 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Harsh Dubey </span>
             from <span className="purple"> Mirzapur.</span>
             <br />
-            I am currently Working as a software developer.
+          I am currently pursuing my Master of Computer Applications (MCA).
             <br />
-            I have completed BCA.
+            I have completed my Bachelor of Computer Applications (BCA).
             <br />
+            Right now, I’m focused on building projects and improving my development skills.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
