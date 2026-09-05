@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import FadeIn from "./FadeIn";
+import Magnet from "./Magnet";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+const PORTRAIT_URL =
+              'https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png';
 
 function Home2() {
   return (
@@ -24,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Javascript and Go.  </b>
               </i>
               <br />
               <br />
@@ -50,9 +52,24 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+           <div style={{ width: "215px", maxWidth: "100%", margin: "0 auto" }}>
+        <FadeIn delay={0.6} y={30}>
+          <Magnet
+            padding={150}
+            strength={3}
+            activeTransition="transform 0.3s ease-out"
+            inactiveTransition="transform 0.6s ease-in-out"
+          >
+            <img
+              src={PORTRAIT_URL}
+              alt="Harsh — 3D portrait"
+              className="select-none pointer-events-none"
+              style={{ width: "100%", height: "237px", objectFit: "contain" }}
+              draggable={false}
+            />
+          </Magnet>
+        </FadeIn>
+      </div>
           </Col>
         </Row>
         <Row>
